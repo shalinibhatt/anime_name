@@ -1,0 +1,361 @@
+.akainu{
+    color:rgb(165, 8, 8);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+.akainu_para{
+    color: rgb(241, 173, 0);
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.brook{
+    color:rgb(32, 32, 105);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.brook_para{
+    color: rgb(230, 98, 120);
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.caven{
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.caven_para{
+    color: rgb(184, 99, 19);
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.doffy{
+    color:rgb(199, 53, 78);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.doffy_para{
+    color:rgb(179, 44, 44);
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.eren{
+    color:rgb(24, 58, 24);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.eren_para{
+    color:rgb(58, 10, 10);
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.frieza{
+    color:purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.frieza_para{
+    color:#9d7646;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.goku{
+    color:#0052b9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.goku_para{
+    color:#f09c18;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.hyuga{
+    color:#6f6284;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.hyuga_para{
+    color:#5b7853;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.itachi{
+    color:#0a4f58;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.itachi_para{
+    color:#7a1723;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.jiraiya{
+    color:#571f27;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.jiraiya_para{
+    color:#876b56;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+/* //kamado kakashi */
+.kamado{
+    color:#f82f15;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.kamado_para{
+    color:#1c5e98;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.luffy{
+    color:#000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.luffy_para{
+    color:#d42f39;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.manji{
+    color:#c6a10a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.manji_para{
+    color:#ca566b;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.naruto{
+    color:#0d6efd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.naruto_para{
+    color:#0f2137;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.btn{
+     font-weight: 600;
+    background-color:#689f38;
+    border-color: #ab47bc;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #455a64;
+    border-color: #880e4f;
+}
+.onizuka{
+    color:#8c324b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.onizuka_para{
+    color:#686c5b;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.ponyo{
+    color:#d94f59;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.ponyo_para{
+    color:#51ac49;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.queen{
+    color:#92278f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.queen_para{
+    color:#306b4c;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.roger{
+    color:#dc3545;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.roger_para{
+    color:#e8a42f;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.shoyo{
+    color:#6a1c6a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.shoyo_para{
+    color:#645e6a;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.toru{
+    color:#00838f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.toru_para{
+    color:#852529;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.uzui{
+    color:#ffc107;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.uzui_para{
+    color:#41669f;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.vin{
+    color:#819716;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.vin_para{
+    color:#2c394a;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.white{
+    color:#811c31;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.white_para{
+    color:#745f50;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.ymir{
+    color:#546e7a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.ymir_para{
+    color:#9d9696;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.zoro{
+    color:#2cc12c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.zoro_para{
+    color:#ff7b92;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+}

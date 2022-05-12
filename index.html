@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MC Namae Wa</title>
+    <link rel="icon" href="photo/sakura.png" type="image/icon type">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Indie+Flower&family=Lobster&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="mc.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light border border-success">
+      <div class="container-fluid">
+        <a
+          class="font-weight-bold text-uppercase text-primary navbar-brand bg-light"
+          id="mc_head"
+          style="font-family: 'bangers'; font-size: 2.88rem"
+          >MC Characters</a
+        >
+        <form class="d-flex">
+          <input class="form-control me-2" id="search" type="search" placeholder="Search" aria-label="Search"/>
+          <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+        </form>
+      </div>
+    </nav>
+    <div class="container">
+      <p
+        class="para m-3 font-weight-bold text-center text-success"
+        id="para"
+        style="font-family: 'Bangers', cursive; font-size: 1.8rem"
+        ,
+      >
+        Kon'nichiwa AnimeWeebs! FIND YOUR FAVOURITE ANIME CHARACTERS
+      </p>
+
+      <div class="row container-fluid" id="blocks">
+      <!-- ace and akainu -->
+        <div class="card m-2" style="width: 18rem">
+          <img class="card-img-top m-1 akainu_img" id="akainu_img" src="photo/akainu.png" alt="Akainu_one_piece" />
+          <div class="card-body">
+            <h5 class="card-title akainu">AKAINU</h5>
+            <p class="card-text akainu_para">
+                
+              Akainu also Recognised as the Admiral, who killed ACE. 
+                <ul class="akainu_para">
+                    <li class="akainu_para">Anime : One Piece</li>
+                    <li class="akainu_para">Power : Magma Magma Fruit</li>
+                </ul>
+              
+            </p>
+            <button class="btn" id="ace_button">ACE</button>
+          </div>
+        </div>
+        <!-- bartolomeo and brook -->
+
+           <div class="card m-2" style="width: 18rem">
+          <img class="card-img-top brook_img m-1" id="brook_img" src="photo/brook.png" alt="brook_pic" />
+          <div class="card-body mb-4">
+            <h5 class="card-title brook">BROOK</h5>
+            <p class="card-text brook_para">
+              Brook is the musician and one of the two swordsmen of Straw Hat Pirates.
+              <ul class="brook_para">
+                <li class="brook_para" >Anime : One Piece</li>
+                <li class="brook_para">Power : Yomi Yomi Fruit</li>
+            </ul>
+            </p>
+            <button class="btn" id="bigmom_button">BIGMOM</button>
+          </div>
+        </div> 
+<!-- erendish and Charlotte Pudding -->
+<div class="card m-2" style="width: 18rem">
+    <img class="card-img-top caven_img m-1" id="caven_img" src="photo/caven.png" alt="caven_pic" />
+    <div class="card-body mb-4">
+      <h5 class="card-title caven">CAVENDISH SAMA</h5>
+      <p class="card-text caven_para">
+Cavendish known as "Hakuba", the another personality of the Pirate Prince of Beautiful Pirates.
+        <ul class="caven_para">
+          <li class="caven_para" >Anime : One Piece</li>
+          <li class="caven_para">Power : Busoshoku Haki</li>
+      </ul>
+      </p>
+      <button class="btn" id="char_button">CHARLOTTE</button>
+    </div>
+  </div> 
+<!-- doffy and danzo -->
+  <div class="card m-2" style="width: 18rem">
+    <img class="card-img-top doffy_img m-1" id="doffy_img" src="photo/doffy.png" alt="doffy_pic" />
+    <div class="card-body mb-4">
+      <h5 class="card-title doffy">DOFLAMINGO</h5>
+      <p class="card-text doffy_para">
+        Captain of the Donquixote Pirates. Also called King of Dressrosa.
+        <ul class="doffy_para">
+          <li class="doffy_para" >Anime : One Piece</li>
+          <li class="doffy_para">Power : String String Fruit</li>
+      </ul>
+      </p>
+      <button class="btn" id="danzo_button">DANZO</button>
+    </div>
+  </div> 
+  <!-- eren and erwin  -->
+  <div class="card m-2" style="width: 18rem">
+    <img class="card-img-top eren_img m-1" id="eren_img" src="photo/eren.png" alt="eren_pic" />
+    <div class="card-body mb-4">
+      <h5 class="card-title eren">EREN YEAGER</h5>
+      <p class="card-text eren_para">
+        Both antagonist and protagonist of the anime - Attack On Titan.
+        <ul class="eren_para">
+          <li class="eren_para" >Anime : Attack On Titan</li>
+          <li class="eren_para">Power : Founding Titan : Power to time travel</li>
+      </ul>
+      </p>
+      <button class="btn" id="erwin_button">ERWIN SMITH</button>
+    </div>
+  </div>  
+  
+
+
+  <!-- Frieza and Falcon -->
+  <div class="card m-2" style="width: 18rem">
+    <img class="card-img-top frieza_img m-1" id="frieza_img" src="photo/frieza.png" alt="frieza_pic" />
+    <div class="card-body mb-4">
+      <h5 class="card-title frieza">FRIEZA</h5>
+      <p class="card-text frieza_para">
+He is the Emperor of the universe. Known for his ruthlessness and power, he controls the imperial army and later was killed by Goku.
+        <ul class="frieza_para">
+          <li class="frieza_para" >Anime : Dragon Ball Z </li>
+          <li class="frieza_para">Power : Superhuman Strength</li>
+      </ul>
+      </p>
+      <button class="btn" id="falcon_button">FALCON GRICE</button>
+    </div>
+  </div> 
+<!--goku and gojo-->
+<div class="card m-2" style="width: 18rem">
+    <img class="card-img-top goku_img m-1" id="goku_img" src="photo/goku.png" alt="goku_pic" />
+    <div class="card-body mb-4">
+      <h5 class="card-title goku">GOKU</h5>
+      <p class="card-text goku_para">
+        Main protagonist of the Dragon Ball. The most powerful dragon in existence.;
+
+        <ul class="goku_para">
+          <li class="goku_para" >Anime : Dragon Ball Z</li>
+          <li class="goku_para">Power : God of the Dragon</li>
+      </ul>
+      </p>
+      <button class="btn" id="gojo_button">GOJO SATORU</button>
+    </div>
+  </div> 
+<!-- Hyuga hinata -->
+<div class="card m-2" style="width: 18rem">
+    <img class="card-img-top hyuga_img m-1" id="hyuga_img" src="photo/hyuga.png" alt="hyuga_pic" />
+    <div class="card-body mb-4">
+      <h5 class="card-title hyuga">HINATA HYUGA</h5>
+      <p class="card-text hyuga_para">
+Princess of the Hyuga clan. Wife of Naruto and mother of Himawari and Boruto.
+        <ul class="hyuga_para">
+          <li class="hyuga_para" >Anime : Naruto</li>
+          <li class="hyuga_para">Power : Byankugan</li>
+      </ul>
+      </p>
+      <button class="btn" id="hinata_button">HINATA</button>
+    </div>
+  </div>
+  <!-- itachi and izumi miyamura -->
+  <div class="card m-2" style="width: 18rem">
+    <img class="card-img-top itachi_img m-1" id="itachi_img" src="photo/itachi.png" alt="itachi_pic" />
+    <div class="card-body mb-4">
+      <h5 class="card-title itachi">ITACHI UCHIHA</h5>
+      <p class="card-text itachi_para">
+Itachi assasinated his whole Uchiha Clan being the lone survivor along with his brother Sasuke. He was also the member of ROOT.
+        <ul class="itachi_para">
+          <li class="itachi_para" >Anime : Naruto</li>
+          <li class="itachi_para">Power : Sharingan</li>
+      </ul>
+      </p>
+      <button class="btn" id="izumi_button">IZUMI MIYAMURA</button>
+    </div>
+  </div>
+<!-- jiraiya jean -->
+<div class="card m-2" style="width: 18rem">
+    <img class="card-img-top jiraiya_img m-1" id="jiraiya_img" src="photo/jiraiya.png" alt="jiraiya_pic" />
+    <div class="card-body mb-4">
+      <h5 class="card-title jiraiya">JIRAIYA</h5>
+      <p class="card-text jiraiya_para">
+Sensei of fourth hokage i.e. Minato. Sage mode user. He also taught Naruto, Minato's son. He died fighting pain.
+        <ul class="jiraiya_para">
+          <li class="jiraiya_para" >Anime : Naruto</li>
+          <li class="jiraiya_para">Power : Sage, Rasengan</li>
+      </ul>
+      </p>
+      <button class="btn" id="jean_button">JEAN</button>
+    </div>
+  </div> 
+  <!-- KAMADO TANJIRO AND KAKASHI HATAKE -->
+  <div class="card m-2" style="width: 18rem">
+    <img class="card-img-top kamado_img m-1" id="kamado_img" src="photo/kamado.png" alt="kamado_pic" />
+    <div class="card-body mb-4">
+      <h5 class="card-title kamado">KAMADO TANJIRO</h5>
+      <p class="card-text kamado_para">
+      protagonist of Demon Slayer, who joined the Demon Slayer Corps tu turn her sister back to human from demon. 
+        <ul class="kamado_para">
+          <li class="kamado_para" >Anime : Demon Slayer</li>
+          <li class="kamado_para">Power : Sun and Water breathing</li>
+      </ul>
+      </p>
+      <button class="btn" id="kakashi_button">KAKASHI HATAKE</button>
+    </div>
+  </div>
+<!-- LUffy and light -->
+<div class="card m-2" style="width: 18rem">
+  <img class="card-img-top luffy_img m-1" id="luffy_img" src="photo/luffy.png" alt="luffy_pic" />
+  <div class="card-body mb-4">
+    <h5 class="card-title luffy">MONKEY D. LUFFY</h5>
+    <p class="card-text luffy_para">
+Luffy is the Captain of the Straw Hat Pirates. He is also the son and Grandson of Dragon and Garp.
+      <ul class="luffy_para">
+        <li class="luffy_para" >Anime : One Piece</li>
+        <li class="luffy_para">Power : Rubber Rubber Fruit</li>
+    </ul>
+    </p>
+    <button class="btn" id="light_button">LIGHT YAGAMI</button>
+  </div>
+</div>
+<!-- manjiro sano(mikey) and Minori Kushieda(mino) -->
+<div class="card m-2" style="width: 18rem">
+  <img class="card-img-top manji_img m-1" id="manji_img" src="photo/manji.png" alt="manji_pic" />
+  <div class="card-body mb-4">
+    <h5 class="card-title manji">MANJIRO SANO</h5>
+    <p class="card-text manji_para">
+He is the leader of the Toman Gang of Tokyo. He is also the protagonist of the anime Tokyo Revengers. 
+      <ul class="manji_para">
+        <li class="manji_para" >Anime : Tokyo Revengers</li>
+        <li class="manji_para">Power : Superhuman Kicks</li>
+    </ul>
+    </p>
+    <button class="btn" id="mino_button">MINORI KUSHIEDA</button>
+  </div>
+</div>
+<!-- Naruto and nami -->
+<div class="card m-2" style="width: 18rem">
+  <img class="card-img-top naruto_img m-1" id="naruto_img" src="photo/naruto.png" alt="naruto_pic" />
+  <div class="card-body mb-4">
+    <h5 class="card-title naruto">NARUTO</h5>
+    <p class="card-text naruto_para">
+He is the son of Minato and disciple of Jiraiya and Kakashi. He holds the power of Rasengan and Sage mode. He is the protagonist of NARUTO.      <ul class="naruto_para">
+        <li class="naruto_para" >Anime : Naruto</li>
+        <li class="naruto_para">Power : All rounder</li>
+    </ul>
+    </p>
+    <button class="btn" id="nami_button">NAMI</button>
+  </div>
+</div>
+<!--onizuka and orochimaru-->
+<div class="card m-2" style="width: 18rem">
+  <img class="card-img-top onizuka_img m-1" id="onizuka_img" src="photo/onizuka.png" alt="onizuka_pic" />
+  <div class="card-body mb-4">
+    <h5 class="card-title onizuka">ONIZUKA</h5>
+    <p class="card-text onizuka_para">
+The sensei of Class-2, the most troublinh class. He with his own style tackles the problem of his tsudents thereby becoming a role model for them.    
+  <ul class="onizuka_para">
+        <li class="onizuka_para" >Anime : GTO</li>
+        <li class="onizuka_para">Role : Teacher of class-2</li>
+    </ul>
+    </p>
+    <button class="btn" id="orochi_button">OROCHIMARU</button>
+  </div>
+</div>
+<!--ponyo and pIKACHU-->
+<div class="card m-2" style="width: 18rem">
+  <img class="card-img-top ponyo_img m-1" id="ponyo_img" src="photo/ponyo.png" alt="ponyo_pic" />
+  <div class="card-body mb-4">
+    <h5 class="card-title ponyo">PONYO</h5>
+    <p class="card-text ponyo_para">
+A small fish when encounters the human child, to become friends and live the lifestyle of a human, she transform into a human from fish.      <ul class="ponyo_para">
+        <li class="ponyo_para" >Anime : Ponyo</li>
+        <li class="ponyo_para">Power : Transform to human</li>
+    </ul>
+    </p>
+    <button class="btn" id="pika_button">PIKACHU</button>
+  </div>
+</div>
+<!--queen otohime and q-->
+<div class="card m-2" style="width: 18rem">
+  <img class="card-img-top queen_img m-1" id="queen_img" src="photo/queen.png" alt="queen_pic" />
+  <div class="card-body mb-4">
+    <h5 class="card-title queen">QUEEN OTOHIME</h5>
+    <p class="card-text queen_para">
+She is the GoldFish Mermaid, the queen of Ryugu Kingdom, the wife of Neptune Sama.
+      <ul class="queen_para">
+        <li class="queen_para" >Anime : One Piece</li>
+        <li class="queen_para">Power : Observation Haki</li>
+    </ul>
+    </p>
+    <button class="btn" id="q_button">Q COMISSIONER</button>
+  </div>
+</div>  
+<!--roger and rengoku-->
+<div class="card m-2" style="width: 18rem">
+  <img class="card-img-top roger_img m-1" id="roger_img" src="photo/roger.png" alt="roger_pic" />
+  <div class="card-body mb-4">
+    <h5 class="card-title roger">ROGER</h5>
+    <p class="card-text roger_para">
+King of Pirates. His crew was the shoyo crew to ever find the treasure named "One Piece" on LaughTale;
+      <ul class="roger_para">
+        <li class="roger_para" >Anime : One Piece</li>
+        <li class="roger_para">Power : Haki of Supreme King</li>
+    </ul>
+    </p>
+    <button class="btn" id="ren_button">RENGOKU</button>
+  </div>
+</div> 
+<!--shoyo and saitama-->
+<div class="card m-2" style="width: 18rem">
+  <img class="card-img-top shoyo_img m-1" id="shoyo_img" src="photo/shoyo.png" alt="shoyo_pic" />
+  <div class="card-body mb-4">
+    <h5 class="card-title shoyo">SHOYO HINATA</h5>
+    <p class="card-text shoyo_para">
+Shoyo Hinata is member of karasuno School Volleyball Team with the upper of number 10, same as that of "little giant" .
+      <ul class="shoyo_para">
+        <li class="shoyo_para" >Anime : Haikyuu</li>
+        <li class="shoyo_para">Power : Freak Quicks and Speed</li>
+    </ul>
+    </p>
+    <button class="btn" id="saitama_button">SAITAMA</button>
+  </div>
+</div>
+<!--toru oikawa and takemichi hanagaki-->
+<div class="card m-2" style="width: 18rem">
+  <img class="card-img-top toru_img m-1" id="toru_img" src="photo/toru.png" alt="toru_pic" />
+  <div class="card-body mb-4">
+    <h5 class="card-title toru">TORU OIKAWA</h5>
+    <p class="card-text toru_para">
+Toru Oikawa is the captain of Aobe Sehjio. He is the setter of the team : "Everyone! I believe in you" is his fav line.
+      <ul class="toru_para">
+        <li class="toru_para" >Anime : Haikyuu</li>
+        <li class="toru_para">Power : Calm and Composed</li>
+    </ul>
+    </p>
+    <button class="btn" id="take_button">TAKEMICHI</button>
+  </div>
+</div> 
+<!--UZUI and ussop-->
+<div class="card m-2" style="width: 18rem">
+  <img class="card-img-top uzui_img m-1" id="uzui_img" src="photo/uzui.png" alt="uzui_pic" />
+  <div class="card-body mb-4">
+    <h5 class="card-title uzui">UZUI TENGEN</h5>
+    <p class="card-text uzui_para">
+Uzui is the wing strongest Hashira. He fought against the upper demon 5. He also known to have three wives.
+      <ul class="uzui_para">
+        <li class="uzui_para" >Anime : Demon Slayer</li>
+        <li class="uzui_para">Power : Sound Hashira</li>
+    </ul>
+    </p>
+    <button class="btn" id="ussop_button">USOPP</button>
+  </div>
+</div> 
+<!--Vinsmoke Sanji and Violet Evergarden-->
+<div class="card m-2" style="width: 18rem">
+  <img class="card-img-top vin_img m-1" id="vin_img" src="photo/vin.png" alt="vin_pic" />
+  <div class="card-body mb-4">
+    <h5 class="card-title vin">VINSMOKE SANJI</h5>
+    <p class="card-text vin_para">
+      He is the 5th member of Straw Hats. He is the cook of the ship. Also the third Prince of the Vinsmoke Family.
+
+      <ul class="vin_para">
+        <li class="vin_para" >Anime : One Piece</li>
+        <li class="vin_para">Power : Observation Haki and Kicks</li>
+    </ul>
+    </p>
+    <button class="btn" id="vio_button">VIOLET</button>
+  </div>
+</div>  
+<!--Whitebeard and WING (HUNTER x hunter) -->
+<div class="card m-2" style="width: 18rem">
+  <img class="card-img-top white_img m-1" id="white_img" src="photo/white.png" alt="white_pic" />
+  <div class="card-body mb-4">
+    <h5 class="card-title white">WHITEBEARD</h5>
+    <p class="card-text white_para">
+The captain of Whitebeard Pirates. One of the Yonko. He died during the MarineFord Arc, to save ACE.
+      <ul class="white_para">
+        <li class="white_para" >Anime : One Piece</li>
+        <li class="white_para">Power : Quack Quack Fruit</li>
+    </ul>
+    </p>
+    <button class="btn" id="wing_button">WING</button>
+  </div>
+</div>  
+<!--ymir and Yama -->
+<div class="card m-2" style="width: 18rem">
+  <img class="card-img-top ymir_img m-1" id="ymir_img" src="photo/ymir.png" alt="ymir_pic" />
+  <div class="card-body mb-4">
+    <h5 class="card-title ymir">YMIR</h5>
+    <p class="card-text ymir_para">
+She was the first female titan ever. After her death her body parts were fed to her daughter so that they could inherit the titan.
+      <ul class="ymir_para">
+        <li class="ymir_para" >Anime : Attack On Titan</li>
+        <li class="ymir_para">Power : First Titan</li>
+    </ul>
+    </p>
+    <button class="btn" id="yama_button">YAMAMOTO</button>
+  </div>
+</div> 
+<!--Zoro and zero two-->
+<div class="card m-2" style="width: 18rem">
+  <img class="card-img-top zoro_img m-1" id="zoro_img" src="photo/zoro.png" alt="zoro_pic" />
+  <div class="card-body mb-4">
+    <h5 class="card-title zoro">ZORO</h5>
+    <p class="card-text zoro_para">
+Zoro is the 1st mate of the Straw Hat Luffy. He is the Second Strongest crew member. Currently he owns Odens Sword, Enma.
+      <ul class="zoro_para">
+        <li class="zoro_para" >Anime : One Piece</li>
+        <li class="zoro_para">Power : Three Swords User</li>
+    </ul>
+    </p>
+    <button class="btn" id="zero_button">ZERO TWO</button>
+  </div>
+</div> 
+<!-- slides -->
+
+
+
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js//app.js"></script>
+  </body>
+</html>
